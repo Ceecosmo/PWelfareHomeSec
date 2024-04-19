@@ -9,7 +9,7 @@ body{
 }
 .bg-image{
   
-  background: url('https://priestwelfare.onrender.com/assets/images/fada5.jpg');
+  background: url('/assets/images/fada5.jpg');
   background-size: cover no-repeat;
   background-position: center;
   height: 500px;
