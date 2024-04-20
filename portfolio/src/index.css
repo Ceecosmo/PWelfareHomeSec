@@ -9,7 +9,7 @@ body{
 }
 .bg-image{
   
-  background: url('/assets/images/fada5.jpg');
+  background: url('http://localhost:5173/assets/images/fada5.jpg');
   background-size: cover no-repeat;
   background-position: center;
   height: 500px;
