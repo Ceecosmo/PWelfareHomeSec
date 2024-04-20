@@ -3,8 +3,8 @@ import MARY from '/assets/images/Marys.jpg'
 import JESUS from '/assets/images/Jesus1sss.jpg'
 import About from '/assets/images/fada9.jpg'
 import Services from '/assets/images/fada4.jpg';
-import Card1 from '/Card'
-import FORM from '/Form'
+import Card1 from './Card'
+import FORM from './Form'
 
 // const reactLogo ="Marys.jpg"
 // const viteLogo ="Jesus1sss.jpg"
@@ -29,7 +29,7 @@ function HomePage() {
           </div>
         </div>
         <div className="container text-center">
-          <a href="https://priestwelfare.onrender.com/tracking" className="btn btn-danger mt-4" data-aos="fade-up-left">Learn More</a>
+          <a href="/tracking" className="btn btn-danger mt-4" data-aos="fade-up-left">Learn More</a>
         </div>
       </div>
 
@@ -44,21 +44,21 @@ function HomePage() {
                 <div id="carouselExampleSlidesOnly" className="carousel slide" data-bs-ride="carousel">
                   <div className="carousel-inner" style={{ margin: '0 -100px' }} >
                     <div className="carousel-item active text-center"  >
-                      <img src="https://priestwelfare.onrender.com/assets/images/fada9.jpg" className="d-block w-100" style={{ height: '288px' }} alt="..." />
+                      <img src="/assets/images/fada9.jpg" className="d-block w-100" style={{ height: '288px' }} alt="..." />
                       <div className="carousel-caption d-none d-md-block text-center">
                         <h5>1. The Priests' Welfare Household</h5>
                         <p>Stay Safe With Us, Stay Safe With Us, Stay Safe With Us.</p>
                       </div>
                     </div>
                     <div className="carousel-item">
-                      <img src="https://priestwelfare.onrender.com/assets/images/fada9.jpg" className="d-block w-100" style={{ height: '288px' }} alt="..." />
+                      <img src="/assets/images/fada9.jpg" className="d-block w-100" style={{ height: '288px' }} alt="..." />
                       <div className="carousel-caption d-none d-md-block text-center">
                         <h5>2. The Priests' Welfare Household</h5>
                         <p>Stay Safe With Us, Stay Safe With Us, Stay Safe With Us.</p>
                       </div>
                     </div>
                     <div className="carousel-item">
-                      <img src="https://priestwelfare.onrender.com/assets/images/fada9.jpg" className="d-block w-100" style={{ height: '288px' }} alt="..." />
+                      <img src="/assets/images/fada9.jpg" className="d-block w-100" style={{ height: '288px' }} alt="..." />
                       <div className="carousel-caption d-none d-md-block text-center">
                         <h5>3. The Priests' Welfare Household</h5>
                         <p>Stay Safe With Us, Stay Safe With Us, Stay Safe With Us.</p>
@@ -71,13 +71,13 @@ function HomePage() {
               <div className="col-md-1">
                 <div className="join" style={{ marginLeft: '-92px' }}>
                   <div className="jesus">
-                    <img src="https://priestwelfare.onrender.com/assets/images/Jesus1sss.jpg" className="" alt="..." />
+                    <img src="/assets/images/Jesus1sss.jpg" className="" alt="..." />
 
                   </div>
 
                   <div className="mary pt-2">
 
-                    <img src="https://priestwelfare.onrender.com/assets/images/Marys.jpg" className="" alt="..." />
+                    <img src="/assets/images/Marys.jpg" className="" alt="..." />
                   </div>
                 </div>
               </div>
@@ -118,7 +118,7 @@ function HomePage() {
           <div className="row">
 
             <div className="col mt-6">
-              <img src="https://priestwelfare.onrender.com/assets/images/fada9.jpg" className="rounded img-fluid mb-5" alt="about" />
+              <img src="/assets/images/fada9.jpg" className="rounded img-fluid mb-5" alt="about" />
 
 
             </div>
@@ -127,7 +127,7 @@ function HomePage() {
 
               <h2>Priests' Welfare Home Awka, Nigeria</h2>
               <p className='rooted'>The Catholic Priests' Welfare Home Awka, is rooted by Most Rev. Dr Paulinus Ezeokafor, We strongly believe that this togetherness brings us Peace, Harmony and Progress.. All of these goals is in our interest and in the interest of all of our stakeholders are us customers, employees, investors and the planet as a whole. We add value to cargo people’s interaction with excellent services or products. Engaging our employees and nurture investment on the stock holds market we show concern, by engaging our employees and nurture investment on the stock holds market.</p>
-              <a href="https://priestwelfare.onrender.com/Service" className="btn btn-danger">Learn More</a>
+              <a href="/Service" className="btn btn-danger">Learn More</a>
 
             </div>
 
@@ -144,7 +144,7 @@ function HomePage() {
         <Card1 />
         <div className="text-center " data-aos="fade-up">
 
-          <a href="https://priestwelfare.onrender.com/Service" className="btn btn-danger">Load More</a>
+          <a href="/Service" className="btn btn-danger">Load More</a>
 
         </div>
       </div>
@@ -162,7 +162,7 @@ function HomePage() {
               </p>
             </div>
             <div className="col-md-4 text-md-end text-sm-start" data-aos="fade-up">
-              <a href='https://priestwelfare.onrender.com/contact' className="btn btn-danger1">More Schedule</a>
+              <a href='/contact' className="btn btn-danger1">More Schedule</a>
             </div>
           </div>
 
@@ -183,7 +183,7 @@ function HomePage() {
 
                 <div className="col-md-7">
 
-                  <img src="https://priestwelfare.onrender.com/assets/images/fada4.jpg" alt="" style={{ width: '390px', height: '470px' }} className='img-fluid rounded' data-aos="fade-up" />
+                  <img src="/assets/images/fada4.jpg" alt="" style={{ width: '390px', height: '470px' }} className='img-fluid rounded' data-aos="fade-up" />
                 </div>
                 <div className="col-md-5" data-aos="fade-up">
                   <h3>DIRECTOR OF PRIESTS' WELFARE HOME, AWKA.</h3>
