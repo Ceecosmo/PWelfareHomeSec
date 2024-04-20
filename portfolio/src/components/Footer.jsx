@@ -3,7 +3,7 @@ import galary1 from '/assets/images/fada12.jpeg'
 import galary2 from '/assets/images/fada10.jpeg'
 import galary3 from '/assets/images/fada11.jpeg'
 import galary4 from '/assets/images/fada12.jpeg'
-import FORM2 from '/Form2'
+import FORM2 from './Form2'
 
 function Footer() {
   return (
@@ -16,20 +16,20 @@ function Footer() {
             <h4>PHOTO GALLERY</h4>
             <div className="d-flex ">
               <div className="flex-grow-1 mb-3 me-2">
-              <img src="https://priestwelfare.onrender.com/assets/images/fada12.jpeg" alt="" className='img-fluid rounded' />
+              <img src="/assets/images/fada12.jpeg" alt="" className='img-fluid rounded' />
               </div>
               <div className="flex-grow-1 ms-2">
-              <img src="https://priestwelfare.onrender.com/assets/images/fada10.jpeg" alt="" className='img-fluid rounded' />
+              <img src="/assets/images/fada10.jpeg" alt="" className='img-fluid rounded' />
               
               </div>
             </div>
 
             <div className="d-flex">
               <div className="flex-grow-1 mb-3 me-2">
-              <img src="https://priestwelfare.onrender.com/assets/images/fada11.jpeg" alt="" className='img-fluid rounded' />
+              <img src="/assets/images/fada11.jpeg" alt="" className='img-fluid rounded' />
               </div>
               <div className="flex-grow-1 ms-2">
-              <img src="https://priestwelfare.onrender.com/assets/images/fada12.jpeg" alt="" className='img-fluid rounded' />
+              <img src="/assets/images/fada12.jpeg" alt="" className='img-fluid rounded' />
               
               </div>
             </div>
