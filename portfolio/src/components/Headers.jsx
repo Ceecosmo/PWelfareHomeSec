@@ -21,7 +21,7 @@ function Headers() {
  
   
   else {
-      return window.location = "https://priestwelfare.onrender.com/Service?Search=" + document.getElementById("Searchtextbox").value;
+      return window.location = "/Service?Search=" + document.getElementById("Searchtextbox").value;
   }
 }
   // const Search = () =>{
@@ -54,7 +54,7 @@ function Headers() {
 {/* style={{ height: '70px'}}  */}
 <nav className="fixed-top navbar navbar-expand-lg bg-body-tertiary" >
   <div className="container" >
-    <a className=" navbar-brand " href="/" ><img src="https://priestwelfare.onrender.com/assets/images/logo.png" /></a>
+    <a className=" navbar-brand " href="/" ><img src="/assets/images/logo.png" /></a>
     <button className="navbar-toggler bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent " aria-expanded="false" aria-label="Toggle navigation ">
       
       <span className="navbar-toggler-icon "></span>
@@ -79,7 +79,7 @@ function Headers() {
           <a className="nav-link dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false"><i className="fa fa-user"></i>PRIEST INFO</a>
 
           <ul className="dropdown-menu">
-    <li><a className="dropdown-item" href="https://priestwelfare.onrender.com/Service">Images Of Priests</a></li>
+    <li><a className="dropdown-item" href="/Service">Images Of Priests</a></li>
     <li><a className="dropdown-item" href="/">List Of Priests/Historical Life</a></li>
     
   </ul>
@@ -91,7 +91,7 @@ function Headers() {
         <div className="dropdown">
           <a className="nav-link dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false"><i className="fa fa-calender-alt"></i>EVENTS</a>
           <ul className="dropdown-menu">
-    <li><a className="dropdown-item" href="https://priestwelfare.onrender.com/Tracking">Our Conferences</a></li>
+    <li><a className="dropdown-item" href="/Tracking">Our Conferences</a></li>
     <li><a className="dropdown-item" href="/">All Regions Visitation</a></li>
     <li><a className="dropdown-item" href="/">Some Other Priests' Activities</a></li>
     <li><a className="dropdown-item" href="/">Birthday Celebration of the Priests</a></li>
@@ -105,7 +105,7 @@ function Headers() {
           <a className="nav-link dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false"><i className="fa fa-file-media"></i>MEDIA</a>
 
           <ul className="dropdown-menu">
-    <li><a className="dropdown-item" href="https://priestwelfare.onrender.com/Service">All News</a></li>
+    <li><a className="dropdown-item" href="/Service">All News</a></li>
     <li><a  className="dropdown-item" href="/">Bible Verses</a></li>
     <li><a className="dropdown-item" href="/">About God The Father</a></li>
     <li><a className="dropdown-item" href="/">The Gospel Today</a></li>
@@ -118,13 +118,13 @@ function Headers() {
 
         <li className="nav-item">
       
-      <a className="nav-link " href="https://priestwelfare.onrender.com/Contact"><i className="fa-solid fa-phone"></i>CONTACT</a>
+      <a className="nav-link " href="/Contact"><i className="fa-solid fa-phone"></i>CONTACT</a>
 
     </li>
 
         <li className="nav-item">
       
-          <a className="nav-link" href="https://priestwelfare.onrender.com/SupportUs">SUPPORT US</a>
+          <a className="nav-link" href="/SupportUs">SUPPORT US</a>
 
         
         </li>
