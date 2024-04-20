@@ -1,5 +1,5 @@
 import React from 'react'
-import PAYMENTHOME from '/paymenthome'
+import PAYMENTHOME from './paymenthome'
 
 function supportUs() {
   return (
