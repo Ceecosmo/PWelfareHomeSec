@@ -1,5 +1,5 @@
 import React from 'react'
-import FORM2 from '/Form2'
+import FORM2 from './Form2'
 
 function Tracking() {
     return (
