@@ -10,7 +10,7 @@ function paymenthome() {
         <h4 className="fw-bold text-center">WE HONOUR YOUR PRESENCE</h4>
         <br></br> <br></br>
 
-        <a href="https://priestwelfare.onrender.com/initiate-payment/" className="btn btn-danger lg">PLEASE SUPPORT US<i className="fa fa-arrow-right ms-3 me-3"></i></a>
+        <a href="/initiate-payment/" className="btn btn-danger lg">PLEASE SUPPORT US<i className="fa fa-arrow-right ms-3 me-3"></i></a>
         <br></br> <br></br> <br></br><br></br> <br></br> <br></br>
         </div>
       </>
