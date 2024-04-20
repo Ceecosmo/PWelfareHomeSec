@@ -1,5 +1,5 @@
 import React from 'react'
-import Card2 from '/Card2'
+import Card2 from './Card2'
 
 import Services from '/assets/images/fada4.jpg';
 
