@@ -1,5 +1,5 @@
 import React from 'react'
-import FORM2 from '/Form2'
+import FORM2 from './Form2'
 
 import Services from '/assets/images/fada4.jpg';
 
@@ -24,7 +24,7 @@ function Contact() {
         <div className="row">
          
             <div className="col-md-7">
-            <img src="https://priestwelfare.onrender.com/assets/images/fada4.jpg" alt="" style={{width:'390px', height:'470px'}} className='img-fluid rounded' data-aos="fade-up" />
+            <img src="/assets/images/fada4.jpg" alt="" style={{width:'390px', height:'470px'}} className='img-fluid rounded' data-aos="fade-up" />
             </div>
             <div className="col-md-5" data-aos="fade-up">
             <h3>DIRECTOR OF PRIESTS' WELFARE HOME, AWKA.</h3>
