@@ -8,7 +8,7 @@ const cssfileName = 'index.min.css'
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react()],
-  publicDir: './public',
+  publicDir: '/public',
   build: {
     rollupOptions: {
       output: {
